@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.square {
+  margin: 20px auto;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(228, 223, 223);
+  border-radius: 10px;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(15, 249, 15);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.circle h1 {
+  font-size: 50px;
+}
+
+.circle a {
+  font-size: 14px;
+}
+
+.btn_div {
+  margin: 0px auto;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_div button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: lightblue;
+  border: none;
+}
+
+.color {
+  background-color: lightblue;
+}
+
+/* ===========================================================Task 2 */
+
+.false {
+  background-color: red;
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+.true {
+  background-color: blue;
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner_container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.inner_container button {
+  margin-left: 40px;
+  padding: 0 10px;
+}
